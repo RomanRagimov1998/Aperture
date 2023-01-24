@@ -1,0 +1,23 @@
+$maxWidthCnt: 1170;
+$maxWidthCntPx: 1170px;
+
+$md1: 991.98px;
+$md2: 767.98px;
+$md3: 424.98px;
+
+$white: #C0C0C0;
+
+@import "_nullstyle";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular);
+/*====== container ======*/
+[class*="__container"]{
+	margin: 0 auto;
+	max-width: $maxWidthCntPx + 30;
+	padding: 0 15px;
+}
+
+@import "_global";
+@import "_header";
+@import"_page";
+@import"_footer";
+
